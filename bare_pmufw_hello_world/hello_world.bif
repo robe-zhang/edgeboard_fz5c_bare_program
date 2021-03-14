@@ -1,0 +1,8 @@
+//arch = zynqmp; split = false; format = BIN
+the_ROM_image:
+{
+	[fsbl_config]a53_x64
+	[bootloader]C:\Users\robez\project_1\project_1.sdk\fsbl\Debug\fsbl.elf
+	[pmufw_image]C:\Users\robez\project_1\pmufw.elf
+	[destination_cpu = a53-0]C:\Users\robez\project_1\project_1.sdk\hello_world\Debug\hello_world.elf
+}

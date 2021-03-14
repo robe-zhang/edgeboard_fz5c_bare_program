@@ -1,0 +1,11 @@
+Xilinx Zynq MP First Stage Boot Loader
+Release 2019.1   Mar 14 2021  -  01:14:24
+PMU-FW is not running, certain applications may not be supported.
+Hello World
+please input something, then press enter:
+ input string is [Ifsdfsdfs]
+please input something, then press enter:
+ input string is [asdfasdfasdf]
+please input something, then press enter:
+
+

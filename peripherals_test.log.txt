@@ -1,0 +1,201 @@
+Xilinx Zynq MP First Stage Boot Loader
+Release 2019.1   Mar 13 2021  -  19:09:08
+PMU-FW is not running, certain applications may not be supported.
+---Entering main---
+
+ Running ScuGicSelfTestExample() for psu_acpu_gic...
+ScuGicSelfTestExample PASSED
+ScuGic Interrupt Setup PASSED
+
+ Running XZDma_SelfTestExample() for psu_adma_1...
+XZDma_SelfTestExample PASSED
+
+ Running Interrupt Test  for psu_adma_1...
+ZDMA Simple Example PASSED
+
+ Running XZDma_SelfTestExample() for psu_adma_2...
+XZDma_SelfTestExample PASSED
+
+ Running Interrupt Test  for psu_adma_2...
+ZDMA Simple Example PASSED
+
+ Running XZDma_SelfTestExample() for psu_adma_3...
+XZDma_SelfTestExample PASSED
+
+ Running Interrupt Test  for psu_adma_3...
+ZDMA Simple Example PASSED
+
+ Running XZDma_SelfTestExample() for psu_adma_4...
+XZDma_SelfTestExample PASSED
+
+ Running Interrupt Test  for psu_adma_4...
+ZDMA Simple Example PASSED
+
+ Running XZDma_SelfTestExample() for psu_adma_5...
+XZDma_SelfTestExample PASSED
+
+ Running Interrupt Test  for psu_adma_5...
+ZDMA Simple Example PASSED
+
+ Running XZDma_SelfTestExample() for psu_adma_6...
+XZDma_SelfTestExample PASSED
+
+ Running Interrupt Test  for psu_adma_6...
+ZDMA Simple Example PASSED
+
+ Running XZDma_SelfTestExample() for psu_adma_7...
+XZDma_SelfTestExample PASSED
+
+ Running Interrupt Test  for psu_adma_7...
+ZDMA Simple Example PASSED
+
+ Running SysMonPsuPolledPrintfExample() for psu_ams...
+
+Entering the SysMon Polled Example.
+
+The Current Temperature is 23.977 Centigrades.
+The Maximum Temperature is 24.055 Centigrades.
+The Minimum Temperature is 23.239 Centigrades.
+
+The Current VCCINT is 0.845 Volts.
+The Maximum VCCINT is 0.848 Volts.
+The Minimum VCCINT is 0.845 Volts.
+
+The Current VCCAUX is 1.808 Volts.
+The Maximum VCCAUX is 1.810 Volts.
+The Minimum VCCAUX is 1.807 Volts.
+
+Exiting the SysMon Polled Example.
+SysMonPsuPolledPrintfExample PASSED
+
+ Running SysMonPsuIntrExample()  for psu_ams...
+
+Entering the SysMonPsu Interrupt Example.
+
+The Current Temperature is 23.751 Centigrade.
+
+The Current VCCINT is 0.847 Volts.
+
+The Current VCCAUX is 1.809 Volts.
+
+Temperature Alarm(0) HIGH Threshold is 13.750 Centigrade.
+Temperature Alarm(0) LOW Threshold is 3.748 Centigrade.
+VCCINT Alarm(1) HIGH Threshold is 0.647 Volts.
+VCCINT Alarm(1) LOW Threshold is 1.047 Volts.
+VCCAUX Alarm(3) HIGH Threshold is 1.609 Volts.
+VCCAUX Alarm(3) LOW Threshold is 2.009 Volts.
+
+Alarm 0 - Temperature alarm has occured
+
+The Current Temperature is 23.627 Centigrade.
+The Maximum Temperature is 24.047 Centigrade.
+The Minimum Temperature is 22.834 Centigrade.
+
+The Current VCCINT is 0.846 Volts.
+The Maximum VCCINT is 0.847 Volts.
+The Minimum VCCINT is 0.845 Volts.
+
+The Current VCCAUX is 1.809 Volts.
+The Maximum VCCAUX is 1.810 Volts.
+The Minimum VCCAUX is 1.806 Volts.
+
+Exiting the SysMon Interrupt Example.
+SysMonPsu IntrExample PASSED
+
+ Running CanPsPolledExample() for psu_can_1...
+CanPsPolledExample PASSED
+
+ Running Interrupt Test  for psu_can_1...
+CanPsIntrExample PASSED
+
+ Running XCsuDma_SelfTestExample() for psu_csudma...
+XCsuDma_SelfTestExample PASSED
+
+ Running Interrupt Test  for psu_csudma...
+CSUDMA Interrupt Example PASSED
+
+ Running XZDma_SelfTestExample() for psu_gdma_0...
+XZDma_SelfTestExample PASSED
+
+ Running Interrupt Test  for psu_gdma_0...
+ZDMA Simple Example PASSED
+
+ Running XZDma_SelfTestExample() for psu_gdma_1...
+XZDma_SelfTestExample PASSED
+
+ Running Interrupt Test  for psu_gdma_1...
+ZDMA Simple Example PASSED
+
+ Running XZDma_SelfTestExample() for psu_gdma_2...
+XZDma_SelfTestExample PASSED
+
+ Running Interrupt Test  for psu_gdma_2...
+ZDMA Simple Example PASSED
+
+ Running XZDma_SelfTestExample() for psu_gdma_3...
+XZDma_SelfTestExample PASSED
+
+ Running Interrupt Test  for psu_gdma_3...
+ZDMA Simple Example PASSED
+
+ Running XZDma_SelfTestExample() for psu_gdma_4...
+XZDma_SelfTestExample PASSED
+
+ Running Interrupt Test  for psu_gdma_4...
+ZDMA Simple Example PASSED
+
+ Running XZDma_SelfTestExample() for psu_gdma_5...
+XZDma_SelfTestExample PASSED
+
+ Running Interrupt Test  for psu_gdma_5...
+ZDMA Simple Example PASSED
+
+ Running XZDma_SelfTestExample() for psu_gdma_6...
+XZDma_SelfTestExample PASSED
+
+ Running Interrupt Test  for psu_gdma_6...
+ZDMA Simple Example PASSED
+
+ Running XZDma_SelfTestExample() for psu_gdma_7...
+XZDma_SelfTestExample PASSED
+
+ Running Interrupt Test  for psu_gdma_7...
+ZDMA Simple Example PASSED
+
+ Running IicPsSelfTestExample() for psu_i2c_0...
+IicPsSelfTestExample PASSED
+
+ Running IicPsSelfTestExample() for psu_i2c_1...
+IicPsSelfTestExample PASSED
+
+ Running XZDma_SelfTestExample() for psu_adma_0...
+XZDma_SelfTestExample PASSED
+
+ Running Interrupt Test  for psu_adma_0...
+ZDMA Simple Example PASSED
+
+ Running Interrupt Test  for psu_ttc_0...
+TtcIntrExample PASSED
+
+ Running Interrupt Test  for psu_ttc_1...
+TtcIntrExample PASSED
+
+ Running Interrupt Test  for psu_ttc_2...
+TtcIntrExample PASSED
+
+ Running Interrupt Test  for psu_ttc_3...
+TtcIntrExample PASSED
+
+Running UartPsPolledExample() for psu_uart_1...
+UartPsPolledExample PASSED
+
+ Running Interrupt Test for psu_uart_1...
+UartPsIntrExample PASSED
+
+ Running WdtPsSelfTestExample() for psu_wdt_0...
+WdtPsSelfTestExample PASSED
+
+ Running WdtPsSelfTestExample() for psu_wdt_1...
+WdtPsSelfTestExample PASSED
+---Exiting main---
+
